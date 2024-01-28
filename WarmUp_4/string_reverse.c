@@ -12,6 +12,6 @@ int main(int argc, char** argv){
         strArray[i] = strArray[j];
         strArray[j] = temp;
     }
-printf("Reversed string: %s", strArray);
+printf("Reversed string: %s\n", strArray);
 return EXIT_SUCCESS;
 }
